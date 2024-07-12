@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(3,200px)50px 50px;
+    gap: 10px;
+}
+.box{
+    background-color: gray;
+}
+#box-1{
+    grid-row: span 5;
+}
+#box-11, #box-12{
+    grid-column: span 3;
+}
+.content-2{
+    #box-2{
+        grid-row: span 3;
+    }
+    #box-10{
+        grid-column: span 2;
+
+    }
+    #box-12{
+        grid-column: span 4;
+    }
+}
+h1{
+    text-align: center;
+    color: cadetblue;
+    text-decoration: underline;
+}
